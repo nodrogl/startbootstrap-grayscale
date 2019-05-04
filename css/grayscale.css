@@ -12,7 +12,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #64a19d; /* Green dark */
   border: 1px solid #64a19d;
 }
 
@@ -21,8 +21,8 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
-  font-weight: 700;
+	color: #464646; /* light slate */
+	font-weight: 700;
   padding: .9rem 0;
 }
 
@@ -66,7 +66,7 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+	color: #464646; /* dark brown */
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
@@ -74,13 +74,13 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #64a19d; /*Green */
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #467370; /*Darker green */
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #64a19d;/* Lighter Green */
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
@@ -154,7 +154,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #4f837f; /* Green */
 }
 
 .btn-primary:focus {
@@ -168,7 +168,7 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(70, 70, 70, 0.9)), to(rgba(70, 70, 70, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
